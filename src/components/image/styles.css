@@ -1,0 +1,10 @@
+.image {
+  float: left;
+  position: relative;
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  cursor: pointer;
+  background-size: cover;
+  background: #e3e3e3 no-repeat center center;
+}

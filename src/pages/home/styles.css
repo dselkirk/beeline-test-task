@@ -1,0 +1,8 @@
+:global(body) {
+  background: #fafafa;
+  font-family: "Open Sans", sans-serif;
+}
+
+.home {
+  min-width: 640px;
+}

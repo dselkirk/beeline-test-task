@@ -1,0 +1,9 @@
+.rating {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  padding: 10px 15px;
+  background: #fff;
+  opacity: 0.65;
+  user-select: none;
+}
