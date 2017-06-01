@@ -10,7 +10,11 @@ class Image extends React.Component {
   render() {
     const {image: {src, rating, id}, onChangeRating} = this.props;
     return (
-      <div className={cx('image')} style={{'backgroundImage': `url(${src})`}} onClick={(event) => onChangeRating(event, id)}>
+      <div className={cx('image')}
+           style={{'backgroundImage': `url(${src})`}}
+           onClick={(event) => onChangeRating(event, id)}
+           onContextMenu={(event) => onChangeRating(event, id)}
+      >
         <Rating rating={rating}/>
       </div>
     );
